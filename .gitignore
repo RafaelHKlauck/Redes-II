@@ -1,0 +1,10 @@
+**/*.pcap
+**/*.pkt
+**/*.zip
+**/*.docx
+
+aula*.pdf
+*.csv
+
+**/venv
+**/volumes
