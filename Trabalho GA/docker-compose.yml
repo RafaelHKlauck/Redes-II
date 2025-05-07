@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   router_rip_0:
-    image: frrouting/frr
+    build: .
     container_name: router_rip_0
     hostname: router_rip_0
     privileged: true
@@ -15,7 +15,7 @@ services:
         ipv4_address: 192.168.4.1
 
   router_rip_1:
-    image: frrouting/frr
+    build: .
     container_name: router_rip_1
     hostname: router_rip_1
     privileged: true
@@ -28,7 +28,7 @@ services:
         ipv4_address: 192.168.2.1
 
   router_rip_2:
-    image: frrouting/frr
+    build: .
     container_name: router_rip_2
     hostname: router_rip_2
     privileged: true
@@ -41,7 +41,7 @@ services:
         ipv4_address: 192.168.3.1
 
   router_rip_3:
-    image: frrouting/frr
+    build: .
     container_name: router_rip_3
     hostname: router_rip_3
     privileged: true
@@ -54,7 +54,7 @@ services:
         ipv4_address: 192.168.4.2
 
   router_ospf_0:
-    image: frrouting/frr
+    build: .
     container_name: router_ospf_0
     hostname: router_ospf_0
     privileged: true
@@ -67,7 +67,7 @@ services:
         ipv4_address: 192.168.8.1
 
   router_ospf_1:
-    image: frrouting/frr
+    build: .
     container_name: router_ospf_1
     hostname: router_ospf_1
     privileged: true
@@ -80,7 +80,7 @@ services:
         ipv4_address: 192.168.6.1
 
   router_ospf_2:
-    image: frrouting/frr
+    build: .
     container_name: router_ospf_2
     hostname: router_ospf_2
     privileged: true
@@ -93,7 +93,7 @@ services:
         ipv4_address: 192.168.7.1
 
   router_ospf_3:
-    image: frrouting/frr
+    build: .
     container_name: router_ospf_3
     hostname: router_ospf_3
     privileged: true
